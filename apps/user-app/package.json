@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node api.js && bun --bun next dev -p 3000",
-    "build": "bun --bun next build",
-    "start": "node api.js && bun --bun next start -p 3000",
+    "dev": "node init && bun --bun next dev -p 3000",
+    "build": "node init && bun --bun next build",
+    "start": "node init && bun --bun next start -p 3000",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "type-check": "tsc --noEmit"
   },
